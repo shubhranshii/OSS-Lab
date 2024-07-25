@@ -1,0 +1,31 @@
+The `Calculator` class performs basic mathematical operations: addition, subtraction, multiplication, and division.
+
+- Constructor (`__init__`): Initializes an instance of the `Calculator` class.
+
+ Methods:
+
+ `add(self, a, b)`
+- Purpose: Adds two numbers `a` and `b`.
+- Arguments: `a` (first number), `b` (second number).
+- Returns: Sum of `a` and `b` as a float.
+
+ `subtract(self, a, b)`
+- Purpose: Subtracts `b` from `a`.
+- Arguments: `a` (initial number), `b` (number to subtract).
+- Returns: Difference of `a` and `b` as a float.
+
+ `multiply(self, a, b)`
+- Purpose: Multiplies `a` and `b`.
+- Arguments: `a` (first number), `b` (second number).
+- Returns: Product of `a` and `b` as a float.
+
+ `divide(self, a, b)`
+- Purpose: Divides `a` by `b`.
+- Arguments: `a` (dividend), `b` (divisor).
+- Raises: `ZeroDivisionError` if `b` is zero.
+- Returns: Quotient of `a` divided by `b` as a float.
+
+ Exception Class
+
+- CalculatorError: Custom exception class for potential use, currently not implemented in the methods provided.
+
