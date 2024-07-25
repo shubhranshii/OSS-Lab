@@ -1,2 +1,2 @@
-# OSSP-Lab
+# OSS-Lab
 repo for weekly assignments
